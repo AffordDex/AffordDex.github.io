@@ -56,22 +56,22 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://scholar.google.com/citations?user=ymXRJBYAAAAJ&hl=zh-CN" target="_blank">Haoyu Zhao</a><sup>1,2</sup>,</span>
+                <a href="https://scholar.google.com/citations?user=ymXRJBYAAAAJ&hl=zh-CN" target="_blank">Haoyu Zhao*</a><sup>1,2</sup>,</span>
                 <span class="author-block">
-                  <a target="_blank">Linghao Zhuang</a><sup>1</sup>,</span>
+                  <a target="_blank">Linghao Zhuang*</a><sup>1</sup>,</span>
                   <span class="author-block">
-                    <a href="https://scholar.google.com/citations?user=BeMiq1AAAAAJ&hl=zh-CN&oi=ao" target="_blank">Xingyue Zhao</a><sup>2</sup>,
+                    <a href="https://scholar.google.com/citations?user=BeMiq1AAAAAJ&hl=zh-CN&oi=ao" target="_blank">Xingyue Zhao*</a><sup>2</sup>,
                   </span>
                   <span class="author-block">
                     <a href="" target="_blank">Cheng Zeng</a><sup>5</sup>,
                   </span>
                   <span class="author-block">
                     <a href="_blank" target="_blank">Haoran Xu</a><sup>4</sup>,
-                  </span><br/>  <!-- 这里换行 -->
                     <span class="author-block">
                     <a href="https://scholar.google.com/citations?user=GStTsxAAAAAJ&hl=zh-CN&oi=ao" target="_blank">Yuming Jiang</a><sup>2</sup>,
+                    </span><br/>  <!-- 这里换行 -->
                   <span class="author-block">
-                    <a href="https://scholar.google.com/citations?hl=zh-CN&user=6JMV8NEAAAAJ" target="_blank">Jun Cen</a><sup>2</sup>
+                    <a href="https://scholar.google.com/citations?hl=zh-CN&user=6JMV8NEAAAAJ" target="_blank">Jun Cen</a><sup>2,3,4</sup>
                   </span>
                   <span class="author-block">
                     <a href="https://scholar.google.com/citations?hl=zh-CN&user=6JMV8NEAAAAJ" target="_blank">Kexiang Wang</a><sup>2</sup>
@@ -80,14 +80,13 @@
                     <a href="https://scholar.google.com/citations?hl=zh-CN&user=6JMV8NEAAAAJ" target="_blank">Jiayan Guo</a><sup>2</sup>
                   </span>
                   <span class="author-block">
-                    <a href="https://scholar.google.com/citations?hl=zh-CN&user=6JMV8NEAAAAJ" target="_blank">Siteng Huang</a><sup>1</sup>
-                  </span>
-                  </span><br/>  <!-- 这里换行 -->
-                  <span class="author-block">
-                    <a href="https://scholar.google.com/citations?hl=zh-CN&user=6JMV8NEAAAAJ" target="_blank">Xin Li</a><sup>1</sup>
+                    <a href="https://scholar.google.com/citations?hl=zh-CN&user=6JMV8NEAAAAJ" target="_blank">Siteng Huang</a><sup>2,3,4</sup>
                   </span>
                   <span class="author-block">
-                    <a href="https://scholar.google.com/citations?hl=zh-CN&user=6JMV8NEAAAAJ" target="_blank">Deli Zhao</a><sup>1</sup>
+                    <a href="https://scholar.google.com/citations?hl=zh-CN&user=6JMV8NEAAAAJ" target="_blank">Xin Li</a><sup>2,3</sup>
+                  </span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?hl=zh-CN&user=6JMV8NEAAAAJ" target="_blank">Deli Zhao</a><sup>2,3</sup>
                   </span>
                   <span class="author-block">
                     <a href="https://scholar.google.com/citations?hl=zh-CN&user=6JMV8NEAAAAJ" target="_blank">Hua Zou</a><sup>1</sup>
@@ -96,7 +95,7 @@
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block"><sup>1</sup>Wuhan University, <sup>2</sup>Shanghai AI Lab, <sup>3</sup>Harbin Institute of Technology (Shenzhen), <sup>4</sup>The Chinese University of Hong Kong, <sup>5</sup>Fudan University, <sup>6</sup>National University of Singapore<br></span>
+                    <span class="author-block"><sup>1</sup>Wuhan University, <sup>2</sup>DAMO Academy, Alibaba Group, <sup>3</sup>Hupan Lab , <sup>4</sup>Zhejiang University, <sup>5</sup>Tsinghua University<br></span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -180,22 +179,6 @@
     </div>
   </div>
 </section> -->
-<section class="hero teaser">
-  <div class="container is-fluid">
-    <div class="hero-body" style="display: flex; justify-content: center; align-items: center;">
-      <!-- 设置容器为16:9比例 -->
-      <div style="position: relative; width: 60%; aspect-ratio: 16 / 9;">
-        <iframe id="tree" 
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-                src="https://www.youtube.com/embed/0HyBypGEeAI?si=nCJVQS8-r7l50MIO&amp;controls=0" 
-                title="YouTube video player" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-        </iframe>
-      </div>
-    </div>
-  </div>
-</section>
   
 <!-- End teaser video
 
@@ -222,12 +205,12 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Reconstructing photo-realistic and topology-aware animatable human avatars from monocular videos remains challenging in computer vision and graphics. Recently, methods using 3D Gaussians to represent the human body have emerged, offering faster optimization and real-time rendering. However, due to ignoring the crucial role of human body semantic information which represents the explicit topological structure and intrinsic structure within the human body, they fail to achieve fine-detail reconstruction of dynamic human avatars. To address this issue, we propose SG-GS, which uses semantics-embedded 3D Gaussians, skeleton-driven rigid deformation, and non-rigid cloth dynamics deformation to create photo-realistic human avatars from monocular videos. We then design a Semantic Human-Body Annotator (SHA) which utilizes SMPL's semantic prior for efficient body part semantic labeling. The generated labels are used to guide the optimization of Gaussian semantic attributes. To capture the explicit topological structure of human body, we also propose a 3D network that integrates both topological and geometric associations for human avatar deformation. We further implement three key strategies to enhance the semantic accuracy of 3D Gaussians and rendering quality: semantic projection with 2D regularization, semantic-guided density regularization and semantic-aware regularization with neighborhood consistency.
+            A dexterous hand capable of generalizable grasping objects is fundamental for the development of general-purpose embodied AI. However, previous methods focus narrowly on low-level grasp stability metrics, neglecting affordanceaware positioning and human-like poses which are crucial for downstream manipulation. To address these limitations, we propose AffordDex, a novel framework with two-stage training that learns a universal grasping policy with an inherent understanding of both motion priors and object affordances. In the first stage, a trajectory imitator is pretrained on a large corpus of human hand motions to instill a strong prior for natural movement. In the second stage, a residual module is trained to adapt these general human-like motions to specific object instances. This refinement is critically guided by two components: our Negative Affordance-aware Segmentation (NAA) module, which identifies functionally inappropriate contact regions, and a privileged teacher-student distillation process that ensures the final vision-based policy is highly successful. Extensive experiments demonstrate that AffordDex not only achieves universal dexterous grasping but also remains remarkably humanlike in posture and functionally appropriate in contact location. As a result, AffordDex significantly outperforms stateof-the-art baselines across seen objects, unseen instances, and even entirely novel categories. S
           </p>
         </div>
         <!-- 在这里插入 Pipeline 图 -->
         <figure class="image is-centered">
-          <img src="static/images/pipeline_page-0001.jpg" alt="Pipeline">
+          <img src="static/images/pipeline.png" alt="Pipeline">
           <figcaption class="has-text-centered">Figure 1: Overview of the proposed pipeline.</figcaption>
         </figure>
       </div>
